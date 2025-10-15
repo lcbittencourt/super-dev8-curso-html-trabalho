@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Coordenador</title>
+</head>
+<body>
+    <h1>Cadastro de Coordenador</h1>
+    <a href="../coordenadores/">Voltar</a>
+    <form>
+        <div>
+            <label for="campo-nome">Nome</label>
+            <input type="text" name="nome" id="campo-nome">
+        </div>
+        <div>
+            <label for="campo-cnpj">CNPJ</label>
+            <input type="text" name="cnpj" id="campo-cnpj">
+        </div>
+        <div>
+            <label for="campo-imagem">Insira uma imagem</label>
+            <input type="file" name="imagem" id="campo-imagem">
+        </div>
+        <div>
+            <label for="campo-pix">Chave Pix</label>
+            <input type="text" name="pix" id="campo-pix">
+        </div>
+        <div>
+            <label for="campo-whatsapp">Whatsapp</label>
+            <input type="text" name="whatsapp" id="campo-whatsapp">
+        </div>
+        <div>
+            <label for="campo-cargo">Cargo</label>
+            <select name="cargo" id="campo-cargo">
+                <option disable selected>Escolha uma opção</option>
+                <option>Coordenador(a) Júnior</option>
+                <option>Coordenador(a) Pleno</option>
+                <option>Coordenador(a) Sênior</option>
+            </select>
+        </div>
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>
